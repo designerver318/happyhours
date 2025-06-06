@@ -2,6 +2,7 @@
 import Navbar from "../MyComponents/Navbar";
 import "./globals.css";
 import Footer from "../MyComponents/Footer";
+import  AuthProvider  from "@/context/AuthContext";
 
 
 export const metadata = {
@@ -15,9 +16,11 @@ export default function RootLayout({ children }) {
       <body
         className={`bg-white`}
       >
+        <AuthProvider>
         <Navbar />
         {children}
         <Footer />
+        </AuthProvider>
       </body>
     </html>
   );
