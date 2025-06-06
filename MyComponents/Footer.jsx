@@ -9,16 +9,6 @@ export default function Footer() {
       className="relative bg-white text-white mt-12 py-12 md:py-16 overflow-hidden bg-no-repeat bg-cover bg-top"
       style={{ backgroundImage: 'url("/img/f.png")' }}
     >
-      {/* Paper Tear Effect - This div sits *above* the main footer content */}
-      {/* Its background is the red tear SVG, creating the visual separation. */}
-      <div
-        className="absolute top-0 left-0 w-full h-12 -mt-12 z-10"
-        style={{
-          backgroundImage: `url("data:image/svg+xml,${tearSvg}")`,
-          backgroundRepeat: 'repeat-x',
-          backgroundSize: '100% 100%',
-        }}
-      ></div>
 
       {/* Footer Content */}
       <div className="container mx-auto px-4 relative z-20 text-center lg:text-left">
