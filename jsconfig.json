@@ -5,5 +5,4 @@
       "@/*": ["./*"]
     }
   },
-  "exclude": ["node_modules"]
 } 

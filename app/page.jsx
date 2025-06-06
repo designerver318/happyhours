@@ -1,4 +1,5 @@
-import AboutUs from "@/MyComponents/About";
+
+import { AboutUs } from "@/MyComponents/About";
 import WhyChooseUs from "@/MyComponents/Choose";
 import Glimpse from "@/MyComponents/Glimpse";
 import Hero from "@/MyComponents/Hero";

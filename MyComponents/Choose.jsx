@@ -9,7 +9,7 @@ const WhyChooseUs = () => {
         <div className="lg:w-1/2 w-full flex justify-center h-full">
           {/* Using a div for styling the image container */}
           <div className="relative w-full    lg:max-w-full h-80 md:h-96 rounded-3xl shadow-lg overflow-hidden">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/hq-ti4A37XQ?si=GZ5OEhrxC3_QAbxO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/hq-ti4A37XQ?si=GZ5OEhrxC3_QAbxO" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen ></iframe>
             {/* <Image
               src="/img/why-choose-us.jpg" // **IMPORTANT: Replace with your actual image path**
               alt="Happy Hours School students excelling in academics and activities"

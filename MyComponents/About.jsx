@@ -3,7 +3,7 @@
 import Image from 'next/image'; // Import the Image component from Next.js for optimized images 
 import Link from 'next/link';
 
-const AboutUs = () => {
+export const AboutUs = () => {
   return (
     // Section container with responsive padding and max-width 
     <section className=" max-md:px-10 p-10 px-16">
@@ -80,5 +80,3 @@ const AboutUs = () => {
     </section>
   );
 };
-
-export default AboutUs;
